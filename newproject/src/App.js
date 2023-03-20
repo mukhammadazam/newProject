@@ -1,10 +1,11 @@
 
-import './Home/scss/main';
-import Section from './Home/Section';
+import Header from './Home/Header/Header';
+// import Section from './Home/Section';
 function App() {
   return (
     <div className="App">
-      <Section />
+      <Header/>
+      {/* <Section /> */}
     </div>
   );
 }
