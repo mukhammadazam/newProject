@@ -1,5 +1,4 @@
 
-import Header from './Home/Header/Header';
 import './Home/scss/main';
 import Section from './Home/Section';
 function App() {
