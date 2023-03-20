@@ -5,7 +5,15 @@
   list-style: none;
   text-decoration: none;
 }
+<<<<<<< HEAD
 body {
   overflow-x: hidden;
 }
 @import "./section.scss";
+=======
+body{
+    overflow-x: hidden;
+}
+
+@import './header.scss';
+>>>>>>> 69e7ce81867dbb0a6a302e814660c8ff441fa351
