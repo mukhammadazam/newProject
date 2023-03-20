@@ -5,6 +5,10 @@
   list-style: none;
   text-decoration: none;
 }
+body {
+  overflow-x: hidden;
+}
+@import "./section.scss";
 body{
     overflow-x: hidden;
 }
