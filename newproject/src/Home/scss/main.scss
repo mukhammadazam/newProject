@@ -12,6 +12,11 @@
 body {
   overflow-x: hidden;
 }
-@import "./section.scss";
+img {
+  object-fit: cover;
+  vertical-align: middle;
+}
 
-@import './header.scss';
+@import "./header.scss";
+@import "./section.scss";
+@import "./Tovar.scss";
