@@ -1,0 +1,38 @@
+.new {
+  &__enner {
+    padding-bottom: 40px;
+    &--title {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 64px;
+      line-height: 100%;
+      color: #3b3937;
+    }
+    &--btn {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 15px;
+      line-height: 140%;
+      padding: 15px 0;
+      color: #3b3937;
+      width: 400px;
+      background: #ffffff;
+      border: 1px solid rgba(68, 68, 68, 0.2);
+      transition: all 2s ease;
+      &:hover{
+        background-color: #3b3937;
+        color: #ffffff;
+        transition: all 2s ease;
+      }
+    }
+  }
+}
+@media screen and (max-width: 992px) {
+  .new {
+    &__enner {
+      &--btn {
+        margin: 0 auto;
+      }
+    }
+  }
+}
