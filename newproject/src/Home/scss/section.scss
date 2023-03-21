@@ -1,5 +1,7 @@
-.row {
+.row1 {
   padding-top: 90px;
+}
+.row {
   &__title {
     font-style: normal;
     font-weight: 700;
@@ -29,10 +31,10 @@
     color: #b14101;
   }
 }
-@media screen  and (max-width:768px) {
-    .row{
-        &__link{
-            padding-left: 20px;
-        }
+@media screen and (max-width: 768px) {
+  .row {
+    &__link {
+      padding-left: 20px;
     }
+  }
 }

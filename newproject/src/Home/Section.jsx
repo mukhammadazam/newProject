@@ -4,7 +4,7 @@ const Section = () => {
   return (
     <>
       <div className="container">
-        <div className="row gap-5 gap-xl-0 justify-content-center">
+        <div className="row row1 gap-5 gap-xl-0 justify-content-center">
           <div className="col-12   m-sm-0 col-xl-6 justify-content-xl-between">
             <div className="card">
               <img className="img" src={png} alt="mexmonxona" />
