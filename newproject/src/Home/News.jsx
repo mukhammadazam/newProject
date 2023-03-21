@@ -18,8 +18,8 @@ const Features = () => {
      {
            data ? (
             <Row className='pb-5 pt-5 features'>{
-                data.articles.slice(0,6).map((el)=>(
-                    <Col md={4} className="gy-5">
+                data.articles.slice(0,6).map((el, index)=>(
+                    <Col md={4} className="gy-5" key={index}>
                         <Card style={{ width: '100%' }} className="features__all border-0">
                             <Card.Img variant="top" src={el.urlToImage} style={{height: "350px"}} className="features__img"/>
                             <Card.Body style={{width: "70%"}} className="features__card justify-content-center">
