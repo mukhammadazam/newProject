@@ -158,8 +158,10 @@
     .navbar-brand{
         width: 15%;
     }
+
     .menu{
         position: absolute;
+        z-index: 2;
         top: 80px;
         background: #3B3937;
         height: 87vh;
