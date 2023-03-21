@@ -1,9 +1,38 @@
 .row {
+  padding-top: 90px;
   &__title {
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 120%;
     color: #3b3937;
+    padding-top: 40px;
+    padding-bottom: 19px;
+    padding-left: 20px;
   }
+  &__text {
+    padding-left: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #3b3937;
+    max-width: 565px;
+  }
+  &__link {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 140%;
+    padding-bottom: 20px;
+    padding-left: 389px;
+    color: #b14101;
+  }
+}
+@media screen  and (max-width:768px) {
+    .row{
+        &__link{
+            padding-left: 20px;
+        }
+    }
 }

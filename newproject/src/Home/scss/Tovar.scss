@@ -1,0 +1,52 @@
+.tovar {
+  padding-top: 120px;
+  &__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    color: #3b3937;
+    padding-bottom: 30px;
+  }
+  &__list {
+    padding-bottom: 40px;
+    &-item {
+      padding: 22px 54px;
+      border: 1px solid #8e8c8a;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: all 2s ease;
+      &:hover {
+        border: 2px solid #8e8c8a;
+        transition: all 2s ease;
+        cursor: pointer;
+        background-color: #e4b17e;
+        color: #fff;
+      }
+    }
+  }
+}
+.swcard {
+  max-width: 400px;
+  width: 100%;
+  margin: 40px;
+  .card__text {
+    top: -20px;
+    left: 10px;
+    .text {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 100%;
+      color: #3b3937;
+    }
+    .text1 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 120%;
+      color: #3b3937;
+    }
+  }
+}
+
