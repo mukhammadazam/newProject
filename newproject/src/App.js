@@ -3,6 +3,7 @@ import Section from './Home/Section';
 import Tovar from './Home/Tovar';
 import Header from './Home/Header/Header';
 import Hero from './Home/Hero/Hero';
+import Help from './Home/Help/Help';
 function App() {
   return (
     <div className="App">
@@ -10,6 +11,7 @@ function App() {
       <Hero/>
       <Section />
       <Tovar />
+      <Help/>
     </div>
   );
 }
