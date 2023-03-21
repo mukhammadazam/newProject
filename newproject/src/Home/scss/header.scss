@@ -82,6 +82,7 @@
     }
     &__toggler2{
         display: none;
+        cursor: pointer;
     }
     &__toggler{
         display: none;
@@ -90,6 +91,8 @@
         justify-content: center;
         height: 30px;
         gap: 10px;
+        cursor: pointer;
+        padding: 5px;
         &::after{
             content: "";
             width: 24px;
@@ -130,6 +133,7 @@
     .navigation__toggler{
         display: flex;
         position: relative;
+        cursor: pointer;
 
             & span:nth-child(1){
                 transform: rotate(45deg);
@@ -151,6 +155,7 @@
         flex-direction: column;
         align-items: center;
         gap: 10px;
+        cursor: pointer;
     }
     .navigation__button{
         padding: 8px 50px;
