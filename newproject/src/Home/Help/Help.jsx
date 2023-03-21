@@ -14,9 +14,7 @@ const Help = () => {
         if (!firstName || !lastName) {
             setError(true);
         }
-        }
-        
-        
+        } 
         const handleBlue =()=>{
             return setBlue(!blue);
         }
